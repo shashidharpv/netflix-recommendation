@@ -1,0 +1,47 @@
+body {
+  background-color: #d4d4d4;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  height: calc(100vh-10vh);
+  /* position: relative; */
+}
+ul {
+  padding-left: 0;
+}
+.card-list {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.shows {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+button {
+  color: white;
+  padding: 0.5rem 2rem;
+  margin-right: 1rem;
+  width: 8rem;
+  background-color: #262626;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.card {
+  color: white;
+  list-style: none;
+  padding: 1rem;
+  border: 5px solid black;
+  box-shadow: 5px 10px 10px 10px;
+  width: 12rem;
+  border-radius: 0.5rem;
+  margin: auto;
+  background-color: #991b1b;
+  margin-bottom: 1rem;
+}
